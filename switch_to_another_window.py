@@ -35,6 +35,8 @@ try:
     # Нажимаем кнопку Submit
     button = browser.find_element(By.CSS_SELECTOR, "button.btn")
     button.click()
+   # Выводим результат сообщения (алерта) для отправки решения 
+    print('Ответ для отправки решения: ', browser.switch_to.alert.text.split()[-1])
     # Оцениваем сделаную работу
     time.sleep(3)
 

@@ -23,7 +23,7 @@
 
 ## Getting started — приступая к работе
 
-Детальное содержание и пояснения...
+~~Детальное содержание и пояснения...~~
 
 ## Prerequisites - необходимое предварительное условие
 
@@ -44,8 +44,12 @@ pip install -r requirements.txt
 ## Usage (Использование)
 * Обучение модели:\
 python train.py —data_path data/train —epochs 10 —learning_rate 0.001
+![Логотип GitHub](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png "GitHub")
 
 * Предсказание на новых данных:\
+  ```python
+  def factorial(n):
+  ```
 python predict.py —model_path models/best_model.pth —image_path assets/test_image.jpg
 
 Поясните, что означает каждый флаг (—data_path, —epochs и т.д.).

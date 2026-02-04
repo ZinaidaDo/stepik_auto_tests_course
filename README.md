@@ -6,13 +6,19 @@
 
 ## Built with — Основные разделы
 
-### Getting started — Конкретные темы
+## Getting started — Конкретные темы
 
 Детальное содержание и пояснения...
 
-#### Заголовок 4 уровня — Подразделы
-
-Детали реализации...
+## Installation
+1. Клонирование репозитория:\
+git clone https://github.com/your-username/your-project.git
+cd your-project
+2. Создание виртуального окружения (лучшая практика!):\
+python -m venv venv
+source venv/bin/activate  # Для Windows: venv\Scripts\activate
+3. Установка зависимостей:\
+pip install -r requirements.txt
 
 ##### Заголовок 5 уровня — Дополнительные замечания
 

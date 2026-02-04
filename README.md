@@ -20,7 +20,23 @@ source venv/bin/activate  # Для Windows: venv\Scripts\activate
 3. Установка зависимостей:\
 pip install -r requirements.txt
 
-##### Заголовок 5 уровня — Дополнительные замечания
+## Usage (Использование)
+* Обучение модели:\
+python train.py —data_path data/train —epochs 10 —learning_rate 0.001
 
-Важные советы и примечания...
+* Предсказание на новых данных:\
+python predict.py —model_path models/best_model.pth —image_path assets/test_image.jpg
+
+Поясните, что означает каждый флаг (—data_path, —epochs и т.д.).
+
+## Структура проекта
+Этот раздел помогает быстро сориентироваться в вашем коде. Не нужно описывать каждый файл, достаточно показать основную структуру папок и их назначение. Здесь отлично помогают диаграммы!
+
+## Contribution
+Вдруг кто-то захочет внести пожертвования
+
+## License
+
+Distributing under the Unlicense license\
+распространяется без лицензии
 

@@ -134,3 +134,5 @@ Distributing under the Unlicense license\
 <a id= "history"> </a>
 ## История
 
+[ГЛАВНАЯ СТРАНИЦА](#main)
+
